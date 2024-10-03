@@ -1,7 +1,6 @@
 package com.seros.java_spring_first.JavaSpring.controller;
 
 
-import com.seros.java_spring_first.JavaSpring.utils.Constants;
 import com.seros.java_spring_first.JavaSpring.utils.JwtTokenProvider;
 import com.seros.java_spring_first.JavaSpring.dto.LoginRequest;
 import com.seros.java_spring_first.JavaSpring.dto.LoginResponse;

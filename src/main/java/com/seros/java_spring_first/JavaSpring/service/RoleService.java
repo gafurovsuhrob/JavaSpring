@@ -1,14 +1,12 @@
 package com.seros.java_spring_first.JavaSpring.service;
 
-import com.seros.java_spring_first.JavaSpring.exception.UserNotFoundException;
+import com.seros.java_spring_first.JavaSpring.exceptions.UserNotFoundException;
 import com.seros.java_spring_first.JavaSpring.model.Role;
-import com.seros.java_spring_first.JavaSpring.model.User;
 import com.seros.java_spring_first.JavaSpring.repository.RoleRepository;
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import javax.management.relation.RoleNotFoundException;
 import java.util.List;
 
 @Service

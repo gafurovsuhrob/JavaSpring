@@ -1,4 +1,4 @@
-package com.seros.java_spring_first.JavaSpring.exception;
+package com.seros.java_spring_first.JavaSpring.exceptions;
 
 import com.seros.java_spring_first.JavaSpring.dto.ErrorResponse;
 import org.springframework.dao.DataIntegrityViolationException;

@@ -1,4 +1,4 @@
-package com.seros.java_spring_first.JavaSpring.controller
+package com.seros.java_spring_first.JavaSpring.utils
 
 object Constants {
     const val BASE_URL = "/api/v1"
