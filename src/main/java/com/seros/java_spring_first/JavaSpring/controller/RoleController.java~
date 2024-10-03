@@ -4,7 +4,6 @@ package com.seros.java_spring_first.JavaSpring.controller;
 import com.seros.java_spring_first.JavaSpring.model.Role;
 import com.seros.java_spring_first.JavaSpring.service.RoleService;
 import com.seros.java_spring_first.JavaSpring.utils.Constants;
-import com.seros.java_spring_first.JavaSpring.utils.JavaConstants;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(JavaConstants.BASE_URL + Constants.ROLES)
+@RequestMapping(Constants.BASE_URL + Constants.ROLES)
 @AllArgsConstructor
 public class RoleController {
 
