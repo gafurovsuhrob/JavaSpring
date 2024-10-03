@@ -37,5 +37,3 @@ public class User {
     )
     private List<Role> roleEntity;
 }
-
-

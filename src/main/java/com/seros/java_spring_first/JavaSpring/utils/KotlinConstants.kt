@@ -1,6 +1,6 @@
 package com.seros.java_spring_first.JavaSpring.utils
 
-object Constants {
+object KotlinConstants {
     const val BASE_URL = "/api/v1"
     const val AUTH = "/auth"
 
@@ -18,5 +18,4 @@ object Constants {
     const val ROLES = "/role"
     const val ROLE_ALL = "/all"
     const val ROLE_ID = "/{id}"
-
 }

@@ -7903,3 +7903,1054 @@
 2024-10-03T12:58:01.752+05:00 DEBUG 21196 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
 2024-10-03T12:58:01.752+05:00 DEBUG 21196 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
 2024-10-03T12:58:01.752+05:00 DEBUG 21196 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T12:58:29.911+05:00  INFO 3748 --- [JavaSpring] [restartedMain] c.s.j.JavaSpring.JavaSpringApplication   : Starting JavaSpringApplication using Java 20.0.1 with PID 3748 (D:\Backend\Java\JavaSpring\build\classes\java\main started by sgafu in D:\Backend\Java\JavaSpring)
+2024-10-03T12:58:29.917+05:00  INFO 3748 --- [JavaSpring] [restartedMain] c.s.j.JavaSpring.JavaSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-03T12:58:30.019+05:00  INFO 3748 --- [JavaSpring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-03T12:58:30.020+05:00  INFO 3748 --- [JavaSpring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-03T12:58:32.116+05:00  INFO 3748 --- [JavaSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-03T12:58:32.242+05:00  INFO 3748 --- [JavaSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 2 JPA repository interfaces.
+2024-10-03T12:58:33.465+05:00  INFO 3748 --- [JavaSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-03T12:58:33.499+05:00  INFO 3748 --- [JavaSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-03T12:58:33.500+05:00  INFO 3748 --- [JavaSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-03T12:58:33.620+05:00  INFO 3748 --- [JavaSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-03T12:58:33.621+05:00  INFO 3748 --- [JavaSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3601 ms
+2024-10-03T12:58:33.654+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@33909752
+2024-10-03T12:58:33.687+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2024-10-03T12:58:33.697+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2024-10-03T12:58:33.698+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2024-10-03T12:58:33.698+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2024-10-03T12:58:33.698+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2024-10-03T12:58:33.698+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2024-10-03T12:58:33.700+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2024-10-03T12:58:33.701+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2024-10-03T12:58:33.702+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2024-10-03T12:58:33.702+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2024-10-03T12:58:33.703+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2024-10-03T12:58:33.703+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."org.postgresql.Driver"
+2024-10-03T12:58:33.704+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2024-10-03T12:58:33.704+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2024-10-03T12:58:33.704+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2024-10-03T12:58:33.705+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2024-10-03T12:58:33.706+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2024-10-03T12:58:33.706+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2024-10-03T12:58:33.706+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:postgresql://10.10.30.17:5432/test_db_2
+2024-10-03T12:58:33.706+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
+2024-10-03T12:58:33.707+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2024-10-03T12:58:33.707+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2024-10-03T12:58:33.708+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2024-10-03T12:58:33.708+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2024-10-03T12:58:33.709+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2024-10-03T12:58:33.709+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................5
+2024-10-03T12:58:33.709+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2024-10-03T12:58:33.710+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2024-10-03T12:58:33.710+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2024-10-03T12:58:33.711+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2024-10-03T12:58:33.712+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2024-10-03T12:58:33.712+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2024-10-03T12:58:33.713+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2024-10-03T12:58:33.716+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2024-10-03T12:58:33.717+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"postgres"
+2024-10-03T12:58:33.718+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2024-10-03T12:58:33.718+05:00  INFO 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-03T12:58:34.144+05:00  INFO 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@599f0de2
+2024-10-03T12:58:34.147+05:00  INFO 3748 --- [JavaSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-03T12:58:34.176+05:00  INFO 3748 --- [JavaSpring] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://10.10.30.17:5432/test_db_2'
+2024-10-03T12:58:34.257+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2024-10-03T12:58:34.259+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2024-10-03T12:58:34.365+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@25e31490
+2024-10-03T12:58:34.397+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-10-03T12:58:34.425+05:00  INFO 3748 --- [JavaSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-03T12:58:34.498+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b24ee5c
+2024-10-03T12:58:34.537+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-10-03T12:58:34.556+05:00  INFO 3748 --- [JavaSpring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-03T12:58:34.617+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2f1b7fe0
+2024-10-03T12:58:34.638+05:00  INFO 3748 --- [JavaSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-03T12:58:34.661+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-10-03T12:58:34.734+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a19e467
+2024-10-03T12:58:34.770+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T12:58:34.813+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BasicTypeReference@1b7b6389
+2024-10-03T12:58:34.813+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BasicTypeReference@1b7b6389
+2024-10-03T12:58:34.813+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BasicTypeReference@1b7b6389
+2024-10-03T12:58:34.813+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.BasicTypeReference@7941a260
+2024-10-03T12:58:34.813+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.NumericBooleanConverter -> org.hibernate.type.BasicTypeReference@7941a260
+2024-10-03T12:58:34.814+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.BasicTypeReference@6e9d5eec
+2024-10-03T12:58:34.814+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.TrueFalseConverter -> org.hibernate.type.BasicTypeReference@6e9d5eec
+2024-10-03T12:58:34.814+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.BasicTypeReference@4d9d5d27
+2024-10-03T12:58:34.815+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.YesNoConverter -> org.hibernate.type.BasicTypeReference@4d9d5d27
+2024-10-03T12:58:34.815+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.BasicTypeReference@dba1836
+2024-10-03T12:58:34.815+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.BasicTypeReference@dba1836
+2024-10-03T12:58:34.815+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.BasicTypeReference@dba1836
+2024-10-03T12:58:34.815+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BasicTypeReference@799ce943
+2024-10-03T12:58:34.816+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BasicTypeReference@799ce943
+2024-10-03T12:58:34.816+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BasicTypeReference@799ce943
+2024-10-03T12:58:34.816+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary_wrapper -> org.hibernate.type.BasicTypeReference@7df2b2a2
+2024-10-03T12:58:34.816+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.BasicTypeReference@7df2b2a2
+2024-10-03T12:58:34.816+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.BasicTypeReference@5a21ac5e
+2024-10-03T12:58:34.816+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BasicTypeReference@7876484
+2024-10-03T12:58:34.816+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BasicTypeReference@7876484
+2024-10-03T12:58:34.817+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.BasicTypeReference@19cf43c6
+2024-10-03T12:58:34.817+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob_wrapper -> org.hibernate.type.BasicTypeReference@714095ff
+2024-10-03T12:58:34.817+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.BasicTypeReference@26d484d5
+2024-10-03T12:58:34.817+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.BasicTypeReference@26d484d5
+2024-10-03T12:58:34.817+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.BasicTypeReference@26d484d5
+2024-10-03T12:58:34.817+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.BasicTypeReference@1a4b77cf
+2024-10-03T12:58:34.818+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.BasicTypeReference@1a4b77cf
+2024-10-03T12:58:34.818+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.BasicTypeReference@1a4b77cf
+2024-10-03T12:58:34.819+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.BasicTypeReference@7979c633
+2024-10-03T12:58:34.819+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.BasicTypeReference@7979c633
+2024-10-03T12:58:34.819+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.BasicTypeReference@7979c633
+2024-10-03T12:58:34.820+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.BasicTypeReference@ce34b8e
+2024-10-03T12:58:34.820+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.BasicTypeReference@ce34b8e
+2024-10-03T12:58:34.820+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.BasicTypeReference@ce34b8e
+2024-10-03T12:58:34.821+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.BasicTypeReference@e1394eb
+2024-10-03T12:58:34.821+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.BasicTypeReference@e1394eb
+2024-10-03T12:58:34.821+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.BasicTypeReference@e1394eb
+2024-10-03T12:58:34.822+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BasicTypeReference@4f276fe9
+2024-10-03T12:58:34.822+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BasicTypeReference@4f276fe9
+2024-10-03T12:58:34.823+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BasicTypeReference@78d86060
+2024-10-03T12:58:34.824+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BasicTypeReference@78d86060
+2024-10-03T12:58:34.824+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.BasicTypeReference@6e71ebce
+2024-10-03T12:58:34.825+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.BasicTypeReference@6e71ebce
+2024-10-03T12:58:34.825+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.BasicTypeReference@6e71ebce
+2024-10-03T12:58:34.825+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character_nchar -> org.hibernate.type.BasicTypeReference@7c579e27
+2024-10-03T12:58:34.826+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.BasicTypeReference@8fbfe63
+2024-10-03T12:58:34.826+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.BasicTypeReference@8fbfe63
+2024-10-03T12:58:34.826+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.BasicTypeReference@339b447c
+2024-10-03T12:58:34.827+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.BasicTypeReference@5255e65a
+2024-10-03T12:58:34.827+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.BasicTypeReference@5255e65a
+2024-10-03T12:58:34.827+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.BasicTypeReference@5255e65a
+2024-10-03T12:58:34.828+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.BasicTypeReference@12b3ec91
+2024-10-03T12:58:34.828+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.BasicTypeReference@456c0042
+2024-10-03T12:58:34.828+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.BasicTypeReference@2cbd0437
+2024-10-03T12:58:34.828+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.BasicTypeReference@512740cc
+2024-10-03T12:58:34.828+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.BasicTypeReference@512740cc
+2024-10-03T12:58:34.829+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.BasicTypeReference@5c7df91d
+2024-10-03T12:58:34.829+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.BasicTypeReference@5c7df91d
+2024-10-03T12:58:34.829+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.BasicTypeReference@79b69cc0
+2024-10-03T12:58:34.829+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob_char_array -> org.hibernate.type.BasicTypeReference@3d6eb37d
+2024-10-03T12:58:34.829+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob_character_array -> org.hibernate.type.BasicTypeReference@5624b53c
+2024-10-03T12:58:34.830+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.BasicTypeReference@65a21bf4
+2024-10-03T12:58:34.830+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob_character_array -> org.hibernate.type.BasicTypeReference@283fdb1c
+2024-10-03T12:58:34.830+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob_char_array -> org.hibernate.type.BasicTypeReference@6082603d
+2024-10-03T12:58:34.831+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.BasicTypeReference@137ca444
+2024-10-03T12:58:34.831+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.BasicTypeReference@137ca444
+2024-10-03T12:58:34.831+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.BasicTypeReference@66747064
+2024-10-03T12:58:34.831+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.BasicTypeReference@66747064
+2024-10-03T12:58:34.831+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.BasicTypeReference@30c5b08d
+2024-10-03T12:58:34.831+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.BasicTypeReference@30c5b08d
+2024-10-03T12:58:34.831+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.BasicTypeReference@43b5ad20
+2024-10-03T12:58:34.832+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.BasicTypeReference@43b5ad20
+2024-10-03T12:58:34.832+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.BasicTypeReference@359d7f96
+2024-10-03T12:58:34.832+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.BasicTypeReference@359d7f96
+2024-10-03T12:58:34.832+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@702fde11
+2024-10-03T12:58:34.832+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@6df34941
+2024-10-03T12:58:34.833+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.BasicTypeReference@3c12572
+2024-10-03T12:58:34.833+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.BasicTypeReference@3c12572
+2024-10-03T12:58:34.833+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeUtc -> org.hibernate.type.BasicTypeReference@5d7e8b53
+2024-10-03T12:58:34.833+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeWithTimezone -> org.hibernate.type.BasicTypeReference@53af19bb
+2024-10-03T12:58:34.833+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@2461fbce
+2024-10-03T12:58:34.834+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.BasicTypeReference@2e81b085
+2024-10-03T12:58:34.834+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.BasicTypeReference@2e81b085
+2024-10-03T12:58:34.834+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@78c9215
+2024-10-03T12:58:34.834+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@2c45219e
+2024-10-03T12:58:34.834+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.BasicTypeReference@7511053
+2024-10-03T12:58:34.835+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.BasicTypeReference@7511053
+2024-10-03T12:58:34.835+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.BasicTypeReference@24f79da4
+2024-10-03T12:58:34.835+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.BasicTypeReference@24f79da4
+2024-10-03T12:58:34.835+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.BasicTypeReference@4708bf15
+2024-10-03T12:58:34.835+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.BasicTypeReference@4708bf15
+2024-10-03T12:58:34.836+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.BasicTypeReference@4708bf15
+2024-10-03T12:58:34.836+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.BasicTypeReference@42443fbb
+2024-10-03T12:58:34.836+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.BasicTypeReference@42443fbb
+2024-10-03T12:58:34.836+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.BasicTypeReference@42443fbb
+2024-10-03T12:58:34.836+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.BasicTypeReference@4d987c28
+2024-10-03T12:58:34.837+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.BasicTypeReference@551ac282
+2024-10-03T12:58:34.837+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration instant -> org.hibernate.type.BasicTypeReference@57682f23
+2024-10-03T12:58:34.837+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.BasicTypeReference@57682f23
+2024-10-03T12:58:34.837+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid -> org.hibernate.type.BasicTypeReference@34326b92
+2024-10-03T12:58:34.837+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.BasicTypeReference@34326b92
+2024-10-03T12:58:34.838+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration pg-uuid -> org.hibernate.type.BasicTypeReference@34326b92
+2024-10-03T12:58:34.838+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.BasicTypeReference@3a452800
+2024-10-03T12:58:34.838+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.BasicTypeReference@39c8f318
+2024-10-03T12:58:34.838+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.BasicTypeReference@2f4fc235
+2024-10-03T12:58:34.838+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.BasicTypeReference@2f4fc235
+2024-10-03T12:58:34.838+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.BasicTypeReference@88652b5
+2024-10-03T12:58:34.838+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Currency -> org.hibernate.type.BasicTypeReference@88652b5
+2024-10-03T12:58:34.838+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.BasicTypeReference@88652b5
+2024-10-03T12:58:34.838+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.BasicTypeReference@1b906e8d
+2024-10-03T12:58:34.838+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.BasicTypeReference@1b906e8d
+2024-10-03T12:58:34.838+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.BasicTypeReference@653e1ed4
+2024-10-03T12:58:34.839+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.io.Serializable -> org.hibernate.type.BasicTypeReference@653e1ed4
+2024-10-03T12:58:34.839+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.BasicTypeReference@3431262c
+2024-10-03T12:58:34.839+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.BasicTypeReference@3431262c
+2024-10-03T12:58:34.840+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZoneOffset -> org.hibernate.type.BasicTypeReference@e98c9e5
+2024-10-03T12:58:34.840+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZoneOffset -> org.hibernate.type.BasicTypeReference@e98c9e5
+2024-10-03T12:58:34.840+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.BasicTypeReference@16643abd
+2024-10-03T12:58:34.840+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.BasicTypeReference@16643abd
+2024-10-03T12:58:34.840+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration vector -> org.hibernate.type.BasicTypeReference@3395e1b
+2024-10-03T12:58:34.840+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.BasicTypeReference@3e841816
+2024-10-03T12:58:34.850+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.JavaObjectType@535d2475
+2024-10-03T12:58:34.851+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@535d2475
+2024-10-03T12:58:34.853+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration null -> org.hibernate.type.NullType@645f1d13
+2024-10-03T12:58:34.854+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.BasicTypeReference@4d323fb1
+2024-10-03T12:58:34.855+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.BasicTypeReference@2eab1752
+2024-10-03T12:58:34.855+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.BasicTypeReference@32003011
+2024-10-03T12:58:34.855+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.BasicTypeReference@6e135e57
+2024-10-03T12:58:34.855+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.BasicTypeReference@5d436a26
+2024-10-03T12:58:34.855+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_time -> org.hibernate.type.BasicTypeReference@2ba4e75b
+2024-10-03T12:58:34.855+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.BasicTypeReference@1897da86
+2024-10-03T12:58:34.855+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.BasicTypeReference@6c82ce25
+2024-10-03T12:58:35.305+05:00  INFO 3748 --- [JavaSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-03T12:58:35.409+05:00  WARN 3748 --- [JavaSpring] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-03T12:58:35.452+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@54f6f43) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@339e5bad)
+2024-10-03T12:58:35.453+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@201b733f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7d439e63)
+2024-10-03T12:58:35.456+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(2004, BlobTypeDescriptor(BLOB_BINDING)) replaced previous registration(BlobTypeDescriptor(DEFAULT))
+2024-10-03T12:58:35.457+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(2005, ClobTypeDescriptor(CLOB_BINDING)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2024-10-03T12:58:35.471+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration JAVA_OBJECT -> org.hibernate.type.JavaObjectType@96632b5
+2024-10-03T12:58:35.471+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@96632b5
+2024-10-03T12:58:35.471+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Type registration key [java.lang.Object] overrode previous entry : `org.hibernate.type.JavaObjectType@535d2475`
+2024-10-03T12:58:35.479+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.DurationType -> basicType@1(java.time.Duration,3015)
+2024-10-03T12:58:35.480+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> basicType@1(java.time.Duration,3015)
+2024-10-03T12:58:35.480+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> basicType@1(java.time.Duration,3015)
+2024-10-03T12:58:35.486+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.OffsetDateTimeType -> basicType@2(java.time.OffsetDateTime,3003)
+2024-10-03T12:58:35.486+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> basicType@2(java.time.OffsetDateTime,3003)
+2024-10-03T12:58:35.487+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> basicType@2(java.time.OffsetDateTime,3003)
+2024-10-03T12:58:35.487+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.ZonedDateTimeType -> basicType@3(java.time.ZonedDateTime,3003)
+2024-10-03T12:58:35.487+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> basicType@3(java.time.ZonedDateTime,3003)
+2024-10-03T12:58:35.487+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> basicType@3(java.time.ZonedDateTime,3003)
+2024-10-03T12:58:35.488+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.OffsetTimeType -> basicType@4(java.time.OffsetTime,3007)
+2024-10-03T12:58:35.489+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> basicType@4(java.time.OffsetTime,3007)
+2024-10-03T12:58:35.489+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> basicType@4(java.time.OffsetTime,3007)
+2024-10-03T12:58:35.491+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2cb95a9b] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@2c3cb715]
+2024-10-03T12:58:37.061+05:00  INFO 3748 --- [JavaSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-03T12:58:37.062+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2cb95a9b] to SessionFactoryImplementor [org.hibernate.internal.SessionFactoryImpl@2cba08ea]
+2024-10-03T12:58:37.212+05:00 TRACE 3748 --- [JavaSpring] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@2cba08ea] for TypeConfiguration
+2024-10-03T12:58:37.212+05:00  INFO 3748 --- [JavaSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-03T12:58:37.947+05:00  INFO 3748 --- [JavaSpring] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-10-03T12:58:37.948+05:00  WARN 3748 --- [JavaSpring] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-03T12:58:38.176+05:00  WARN 3748 --- [JavaSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-03T12:58:38.484+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 21 mappings in 'requestMappingHandlerMapping'
+2024-10-03T12:58:38.636+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-10-03T12:58:38.704+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-10-03T12:58:38.836+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-03T12:58:38.897+05:00 DEBUG 3748 --- [JavaSpring] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-03T12:58:39.231+05:00  INFO 3748 --- [JavaSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-03T12:58:39.284+05:00  INFO 3748 --- [JavaSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-03T12:58:39.302+05:00  INFO 3748 --- [JavaSpring] [restartedMain] c.s.j.JavaSpring.JavaSpringApplication   : Started JavaSpringApplication in 10.223 seconds (process running for 13.806)
+2024-10-03T12:59:04.270+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T12:59:04.270+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T12:59:04.270+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T12:59:34.276+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T12:59:34.276+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T12:59:34.277+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:00:04.284+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:00:04.284+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:00:04.284+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:00:34.290+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:00:34.290+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:00:34.290+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:01:04.305+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:01:04.306+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:01:04.306+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:01:34.321+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:01:34.322+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:01:34.322+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:02:04.333+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:02:04.334+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:02:04.334+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:02:34.348+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:02:34.351+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:02:34.351+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:03:04.354+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:03:04.355+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:03:04.355+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:03:34.358+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:03:34.359+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:03:34.359+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:11:15.540+05:00  WARN 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m41s181ms370µs800ns).
+2024-10-03T13:11:15.540+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:11:15.540+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:11:15.540+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:47:02.392+05:00  WARN 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m50s454ms914µs500ns).
+2024-10-03T13:47:02.395+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:47:02.395+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:47:02.395+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:47:02.397+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@599f0de2: (connection has passed maxLifetime)
+2024-10-03T13:47:02.403+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2f1b7fe0: (connection has passed maxLifetime)
+2024-10-03T13:47:02.403+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@25e31490: (connection has passed maxLifetime)
+2024-10-03T13:47:02.403+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2b24ee5c: (connection has passed maxLifetime)
+2024-10-03T13:47:02.403+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6a19e467: (connection has passed maxLifetime)
+2024-10-03T13:47:02.405+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to create/setup connection: Ошибка при попытке подсоединения.
+2024-10-03T13:47:02.405+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Cannot acquire connection from data source
+
+org.postgresql.util.PSQLException: Ошибка при попытке подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:358) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.3.jar:42.7.3]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703) ~[HikariCP-5.1.0.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[postgresql-42.7.3.jar:42.7.3]
+	... 14 common frames omitted
+
+2024-10-03T13:47:02.441+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Cannot acquire connection from data source
+
+org.postgresql.util.PSQLException: Ошибка при попытке подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:358) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.3.jar:42.7.3]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703) ~[HikariCP-5.1.0.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[postgresql-42.7.3.jar:42.7.3]
+	... 14 common frames omitted
+
+2024-10-03T13:47:02.488+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Cannot acquire connection from data source
+
+org.postgresql.util.PSQLException: Ошибка при попытке подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:358) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.3.jar:42.7.3]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703) ~[HikariCP-5.1.0.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[postgresql-42.7.3.jar:42.7.3]
+	... 14 common frames omitted
+
+2024-10-03T13:47:02.549+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Cannot acquire connection from data source
+
+org.postgresql.util.PSQLException: Ошибка при попытке подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:358) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.3.jar:42.7.3]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703) ~[HikariCP-5.1.0.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[postgresql-42.7.3.jar:42.7.3]
+	... 14 common frames omitted
+
+2024-10-03T13:47:02.658+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Cannot acquire connection from data source
+
+org.postgresql.util.PSQLException: Ошибка при попытке подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:358) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.3.jar:42.7.3]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703) ~[HikariCP-5.1.0.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[postgresql-42.7.3.jar:42.7.3]
+	... 14 common frames omitted
+
+2024-10-03T13:47:02.845+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Cannot acquire connection from data source
+
+org.postgresql.util.PSQLException: Ошибка при попытке подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:358) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.3.jar:42.7.3]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703) ~[HikariCP-5.1.0.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[postgresql-42.7.3.jar:42.7.3]
+	... 14 common frames omitted
+
+2024-10-03T13:47:03.188+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Cannot acquire connection from data source
+
+org.postgresql.util.PSQLException: Ошибка при попытке подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:358) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.3.jar:42.7.3]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703) ~[HikariCP-5.1.0.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[postgresql-42.7.3.jar:42.7.3]
+	... 14 common frames omitted
+
+2024-10-03T13:47:03.842+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Cannot acquire connection from data source
+
+org.postgresql.util.PSQLException: Ошибка при попытке подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:358) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.3.jar:42.7.3]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703) ~[HikariCP-5.1.0.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[postgresql-42.7.3.jar:42.7.3]
+	... 14 common frames omitted
+
+2024-10-03T13:47:05.147+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Cannot acquire connection from data source
+
+org.postgresql.util.PSQLException: Ошибка при попытке подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:358) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.3.jar:42.7.3]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703) ~[HikariCP-5.1.0.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[postgresql-42.7.3.jar:42.7.3]
+	... 14 common frames omitted
+
+2024-10-03T13:47:07.734+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Cannot acquire connection from data source
+
+org.postgresql.util.PSQLException: Ошибка при попытке подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:358) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.3.jar:42.7.3]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703) ~[HikariCP-5.1.0.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[postgresql-42.7.3.jar:42.7.3]
+	... 14 common frames omitted
+
+2024-10-03T13:47:13.400+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Cannot acquire connection from data source
+
+org.postgresql.util.PSQLException: Ошибка при попытке подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:358) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.3.jar:42.7.3]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703) ~[HikariCP-5.1.0.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+Caused by: java.net.SocketException: Software caused connection abort: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[postgresql-42.7.3.jar:42.7.3]
+	... 14 common frames omitted
+
+2024-10-03T13:47:18.426+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Cannot acquire connection from data source
+
+org.postgresql.util.PSQLException: Ошибка при попытке подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:358) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.3.jar:42.7.3]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703) ~[HikariCP-5.1.0.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[postgresql-42.7.3.jar:42.7.3]
+	... 14 common frames omitted
+
+2024-10-03T13:47:23.481+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@131720b
+2024-10-03T13:47:23.519+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=1, active=0, idle=1, waiting=0)
+2024-10-03T13:47:23.560+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@580f011
+2024-10-03T13:47:23.598+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=2, active=0, idle=2, waiting=0)
+2024-10-03T13:47:23.637+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a940f79
+2024-10-03T13:47:23.677+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=3, active=0, idle=3, waiting=0)
+2024-10-03T13:47:23.717+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@56c58076
+2024-10-03T13:47:23.754+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=4, active=0, idle=4, waiting=0)
+2024-10-03T13:47:23.795+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5cee118f
+2024-10-03T13:47:23.833+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:47:23.833+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:47:23.833+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:47:23.833+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:47:23.833+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:47:23.833+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:47:23.834+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:47:32.398+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:47:32.398+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:47:32.398+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:48:02.409+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:48:02.409+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:48:02.409+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:48:32.413+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:48:32.413+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:48:32.413+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:49:02.425+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:49:02.426+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:49:02.426+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:49:32.441+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:49:32.442+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:49:32.442+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:50:02.451+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:50:02.451+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:50:02.451+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:50:32.455+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:50:32.455+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:50:32.455+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:51:02.460+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:51:02.460+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:51:02.460+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:51:32.463+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:51:32.463+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:51:32.463+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:52:02.478+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:52:02.480+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:52:02.480+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:52:32.489+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:52:32.489+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:52:32.489+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:53:02.494+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:53:02.494+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:53:02.494+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:53:32.509+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:53:32.510+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:53:32.510+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:54:02.521+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:54:02.521+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:54:02.522+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T13:54:32.537+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:54:32.537+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T13:54:32.537+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:02:57.696+05:00  WARN 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m25s158ms413µs800ns).
+2024-10-03T14:02:57.696+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:02:57.696+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:02:57.696+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:03:27.702+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:03:27.703+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:03:27.703+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:03:57.705+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:03:57.705+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:03:57.706+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:04:27.709+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:04:27.710+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:04:27.710+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:04:57.714+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:04:57.715+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:04:57.715+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:05:27.721+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:05:27.721+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:05:27.721+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:05:57.731+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:05:57.731+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:05:57.732+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:06:27.741+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:06:27.741+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:06:27.741+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:06:57.753+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:06:57.753+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:06:57.753+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:07:27.765+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:07:27.765+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:07:27.766+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:07:57.774+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:07:57.774+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:07:57.774+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:08:27.779+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:08:27.779+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:08:27.779+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:08:57.787+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:08:57.787+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:08:57.788+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:09:27.796+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:09:27.796+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:09:27.796+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:09:57.809+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:09:57.809+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:09:57.810+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:10:27.816+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:10:27.816+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:10:27.816+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:10:57.824+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:10:57.824+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:10:57.824+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:11:27.832+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:11:27.833+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:11:27.833+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:13:49.865+05:00  WARN 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m22s32ms410µs100ns).
+2024-10-03T14:13:49.865+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:13:49.865+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:13:49.865+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:14:19.878+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:14:19.879+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:14:19.879+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:14:49.885+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:14:49.885+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:14:49.885+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:15:19.896+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:15:19.896+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:15:19.896+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:15:49.898+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:15:49.898+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:15:49.898+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:16:19.907+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:16:19.907+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:16:19.908+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:16:40.935+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@131720b: (connection has passed maxLifetime)
+2024-10-03T14:16:41.016+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ae97363
+2024-10-03T14:16:41.060+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:16:49.909+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:16:49.909+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:16:49.909+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:16:59.591+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@580f011: (connection has passed maxLifetime)
+2024-10-03T14:16:59.670+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35f46081
+2024-10-03T14:16:59.702+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:17:03.197+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5cee118f: (connection has passed maxLifetime)
+2024-10-03T14:17:03.275+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b33884f
+2024-10-03T14:17:03.321+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:17:07.628+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3a940f79: (connection has passed maxLifetime)
+2024-10-03T14:17:07.715+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3f0c0bf1
+2024-10-03T14:17:07.754+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:17:09.928+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@56c58076: (connection has passed maxLifetime)
+2024-10-03T14:17:10.021+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7a0e8274
+2024-10-03T14:17:10.052+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:17:19.910+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:17:19.910+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:17:19.910+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:17:49.917+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:17:49.918+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:17:49.918+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:18:19.928+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:18:19.929+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:18:19.929+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:18:49.941+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:18:49.942+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:18:49.942+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:19:19.947+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:19:19.947+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:19:19.947+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:19:49.961+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:19:49.961+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:19:49.961+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:20:19.967+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:20:19.967+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:20:19.967+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:20:49.980+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:20:49.981+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:20:49.981+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:21:19.993+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:21:19.994+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:21:19.994+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:21:50.003+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:21:50.003+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:21:50.003+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:22:20.006+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:22:20.006+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:22:20.006+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:22:50.022+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:22:50.023+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:22:50.023+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:23:20.025+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:23:20.025+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:23:20.025+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:23:50.032+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:23:50.033+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:23:50.033+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:24:20.047+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:24:20.047+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:24:20.047+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:24:50.053+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:24:50.054+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:24:50.054+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:25:20.065+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:25:20.066+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:25:20.066+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:25:50.072+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:25:50.072+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:25:50.073+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:26:20.079+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:26:20.079+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:26:20.079+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:26:50.091+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:26:50.091+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:26:50.091+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:27:20.096+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:27:20.096+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:27:20.096+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:27:50.104+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:27:50.104+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:27:50.104+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:28:20.118+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:28:20.119+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:28:20.119+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:28:50.123+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:28:50.124+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:28:50.124+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:29:20.132+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:29:20.132+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:29:20.132+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:29:50.134+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:29:50.134+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:29:50.134+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:30:20.139+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:30:20.139+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:30:20.139+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:30:50.152+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:30:50.152+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:30:50.152+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:31:20.168+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:31:20.168+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:31:20.168+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:31:50.182+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:31:50.182+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:31:50.183+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:32:20.187+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:32:20.187+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:32:20.187+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:32:50.199+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:32:50.201+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:32:50.201+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:33:20.207+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:33:20.208+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:33:20.208+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:33:50.223+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:33:50.224+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:33:50.224+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:34:20.226+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:34:20.227+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:34:20.227+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:34:50.234+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:34:50.235+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:34:50.235+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:35:20.237+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:35:20.237+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:35:20.237+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:35:50.243+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:35:50.243+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:35:50.243+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:36:20.249+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:36:20.249+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:36:20.254+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:37:34.498+05:00  WARN 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m14s249ms397µs600ns).
+2024-10-03T14:37:34.498+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:37:34.498+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:37:34.498+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:38:04.509+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:38:04.509+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:38:04.509+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:38:34.524+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:38:34.524+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:38:34.524+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:39:04.532+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:39:04.532+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:39:04.532+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:39:34.541+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:39:34.541+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:39:34.541+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:40:04.549+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:40:04.549+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:40:04.549+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:41:03.871+05:00  WARN 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s322ms338µs800ns).
+2024-10-03T14:41:03.872+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:41:03.872+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:41:03.872+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:41:33.883+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:41:33.884+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:41:33.884+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:42:03.892+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:42:03.892+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:42:03.892+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:42:33.906+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:42:33.906+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:42:33.907+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:43:03.920+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:43:03.920+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:43:03.920+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:43:33.930+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:43:33.930+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:43:33.930+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:44:03.943+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:44:03.944+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:44:03.944+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:44:33.959+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:44:33.959+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:44:33.959+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:45:03.972+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:45:03.972+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:45:03.973+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:45:33.973+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:45:33.973+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:45:33.973+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:46:03.988+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:46:03.989+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:46:03.989+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:46:14.408+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3ae97363: (connection has passed maxLifetime)
+2024-10-03T14:46:14.490+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68cda759
+2024-10-03T14:46:14.532+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:46:32.989+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3f0c0bf1: (connection has passed maxLifetime)
+2024-10-03T14:46:33.079+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@137cad7b
+2024-10-03T14:46:33.113+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:46:33.999+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:46:33.999+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:46:33.999+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:46:37.261+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3b33884f: (connection has passed maxLifetime)
+2024-10-03T14:46:37.342+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@17433bcc
+2024-10-03T14:46:37.385+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:46:48.675+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@35f46081: (connection has passed maxLifetime)
+2024-10-03T14:46:48.761+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ac3c842
+2024-10-03T14:46:48.799+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:47:01.100+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7a0e8274: (connection has passed maxLifetime)
+2024-10-03T14:47:01.184+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52d62a08
+2024-10-03T14:47:01.224+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:47:04.015+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:47:04.015+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:47:04.015+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:47:34.025+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:47:34.025+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:47:34.026+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:48:04.040+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:48:04.040+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:48:04.041+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:48:34.045+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:48:34.046+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:48:34.046+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:49:04.053+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:49:04.053+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:49:04.053+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:49:34.067+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:49:34.068+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:49:34.068+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:50:04.070+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:50:04.070+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:50:04.070+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:50:34.074+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:50:34.074+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:50:34.074+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:51:04.090+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:51:04.091+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:51:04.091+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:51:34.100+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:51:34.100+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:51:34.100+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:52:04.105+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:52:04.106+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:52:04.106+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:52:34.112+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:52:34.112+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:52:34.112+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:53:04.122+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:53:04.123+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:53:04.123+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:53:34.124+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:53:34.125+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:53:34.125+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:54:04.130+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:54:04.130+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:54:04.130+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:54:34.137+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:54:34.139+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:54:34.139+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:55:04.148+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:55:04.148+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:55:04.148+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:55:34.154+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:55:34.154+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:55:34.154+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:56:04.157+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:56:04.157+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:56:04.157+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-10-03T14:56:34.162+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:56:34.163+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-10-03T14:56:34.163+05:00 DEBUG 3748 --- [JavaSpring] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
