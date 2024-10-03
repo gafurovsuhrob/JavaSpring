@@ -1,0 +1,34 @@
+spring.application.name=JavaSpring
+
+spring.datasource.url=jdbc:
+spring.datasource.username=
+spring.datasource.password=
+
+spring.lifecycle.timeout-per-shutdown-phase=60s
+server.shutdown=graceful
+
+# ?????????????? ????????? Hibernate
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+
+# ????????? ???? ?????????? HikariCP (?? ????????? ? Spring Boot)
+spring.datasource.hikari.maximum-pool-size=
+spring.datasource.hikari.minimum-idle=
+spring.datasource.hikari.idle-timeout=
+spring.datasource.hikari.max-lifetime=
+
+spring.http.encoding.charset=UTF-8
+spring.http.encoding.enabled=true
+spring.http.encoding.force=true
+
+#logging
+logging.level.com.zaxxer.hikari=DEBUG
+logging.level.org.hibernate.SQL=DEBUG
+logging.level.org.hibernate.type=TRACE
+
+logging.level.org.springframework.security=DEBUG
+logging.level.org.springframework.web=DEBUG
+logging.level.com.seros.java_spring_first.JavaSpring.service=DEBUG
+
+logging.file.name=app.log
+logging.file.path=/path/to/logs
