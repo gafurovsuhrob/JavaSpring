@@ -16,5 +16,7 @@ public class UserResponse {
     private Long id;
     private String name;
     private String username;
+    private String provider;
+    private String providerId;
     private List<Long> roles;
 }

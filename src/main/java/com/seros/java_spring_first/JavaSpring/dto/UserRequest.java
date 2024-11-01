@@ -1,9 +1,11 @@
 package com.seros.java_spring_first.JavaSpring.dto;
 
+import com.seros.java_spring_first.JavaSpring.model.AuthProvider;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -30,8 +32,14 @@ public class UserRequest {
 
     @Schema(description = "Пароль пользователя", example = "password")
     @Size(min = 8, max = 32, message = "Пароль должен содержать от 8 до 32 символов")
-    @NotBlank(message = "Пароль не может быть пустым")
     private String password;
+
+    @Schema(description = "Идентификатор провайдера", example = "google Id")
+    private String authProviderId;
+
+    @Schema(description = "Провайдер", example = "GOOGLE")
+    @NotNull(message = "AuthProvider cannot be empty")
+    private AuthProvider authProvider;
 
     @Schema(description = "Роли пользователя", example = "1,2,3")
     @Size(min = 1, message = "Необходимо выбрать роль")

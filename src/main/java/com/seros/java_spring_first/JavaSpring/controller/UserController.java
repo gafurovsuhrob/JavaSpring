@@ -1,9 +1,6 @@
 package com.seros.java_spring_first.JavaSpring.controller;
 
-import com.seros.java_spring_first.JavaSpring.dto.IdList;
-import com.seros.java_spring_first.JavaSpring.dto.UpdatePasswordRequest;
-import com.seros.java_spring_first.JavaSpring.dto.UserRequest;
-import com.seros.java_spring_first.JavaSpring.dto.UserResponse;
+import com.seros.java_spring_first.JavaSpring.dto.*;
 import com.seros.java_spring_first.JavaSpring.model.User;
 import com.seros.java_spring_first.JavaSpring.service.UserService;
 import com.seros.java_spring_first.JavaSpring.utils.Constants;
