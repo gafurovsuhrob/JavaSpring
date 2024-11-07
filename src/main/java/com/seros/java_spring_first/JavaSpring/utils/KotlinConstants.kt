@@ -18,5 +18,4 @@ object KotlinConstants {
     const val ROLES = "/role"
     const val ROLE_ALL = "/all"
     const val ROLE_ID = "/{id}"
-
 }
