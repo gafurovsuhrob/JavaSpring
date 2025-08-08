@@ -1,34 +1,41 @@
-spring.application.name=JavaSpring
+# ===============================
+# Основные настройки сервера
+# ===============================
+# Render и другие платформы подставляют порт в переменную окружения PORT
+server.port=${PORT:8080}
+server.address=0.0.0.0
 
-spring.datasource.url=jdbc:
-spring.datasource.username=
-spring.datasource.password=
+# ===============================
+# Настройки БД (PostgreSQL)
+# ===============================
+# В проде / на Render зададим переменные окружения:
+#   DATABASE_URL  -> jdbc:postgresql://<host>:<port>/<dbname>
+#   DATABASE_USERNAME
+#   DATABASE_PASSWORD
+spring.datasource.url=${DATABASE_URL:jdbc:postgresql://localhost:5432/egov}
+spring.datasource.username=${DATABASE_USERNAME:postgres}
+spring.datasource.password=${DATABASE_PASSWORD:password}
+spring.datasource.driver-class-name=org.postgresql.Driver
 
-spring.lifecycle.timeout-per-shutdown-phase=60s
-server.shutdown=graceful
-
-# ?????????????? ????????? Hibernate
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+# ===============================
+# JPA / Hibernate
+# ===============================
 spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 
-# ????????? ???? ?????????? HikariCP (?? ????????? ? Spring Boot)
-spring.datasource.hikari.maximum-pool-size=
-spring.datasource.hikari.minimum-idle=
-spring.datasource.hikari.idle-timeout=
-spring.datasource.hikari.max-lifetime=
-
-spring.http.encoding.charset=UTF-8
-spring.http.encoding.enabled=true
-spring.http.encoding.force=true
-
-#logging
-logging.level.com.zaxxer.hikari=DEBUG
+# ===============================
+# Логирование
+# ===============================
+logging.level.org.springframework.web=INFO
 logging.level.org.hibernate.SQL=DEBUG
-logging.level.org.hibernate.type=TRACE
+logging.level.org.hibernate.type.descriptor.sql=TRACE
 
-logging.level.org.springframework.security=DEBUG
-logging.level.org.springframework.web=DEBUG
-logging.level.com.seros.java_spring_first.JavaSpring.service=DEBUG
-
-logging.file.name=app.log
-logging.file.path=/path/to/logs
+# ===============================
+# CORS (разрешаем все пока для теста)
+# ===============================
+spring.web.cors.allowed-origin-patterns=*
+spring.web.cors.allowed-methods=GET,POST,PUT,PATCH,DELETE,OPTIONS
+spring.web.cors.allowed-headers=*
+spring.web.cors.allow-credentials=true
