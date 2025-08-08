@@ -29,8 +29,9 @@ COPY build.gradle.kts settings.gradle.kts gradlew /app/
 COPY gradle /app/gradle
 COPY src /app/src
 
+RUN chmod +x gradlew
 RUN ./gradlew clean bootJar --no-daemon
 
-CMD ["java", "-jar", "build/libs/myapp.jar"]
+CMD ["java", "-jar", "build/libs/JavaSpring-0.0.1-SNAPSHOT.jar"]
 
 EXPOSE 8080
