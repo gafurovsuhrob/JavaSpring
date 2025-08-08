@@ -69,11 +69,50 @@ public class AuthController {
         return ResponseEntity.ok(loginResponse);
     }
 
+    @PostMapping(Constants.MOBILE_LOGIN)
+    public ResponseEntity<LoginResponse2> login_mobile(@RequestBody LoginRequest loginRequest) {
+        Authentication authentication = authenticationManager.authenticate(
+                new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword())
+        );
+
+        SecurityContextHolder.getContext().setAuthentication(authentication);
+        String token = jwtTokenProvider.generateToken(loginRequest.getUsername());
+
+        UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+        User user = userService.getUserByUsername(userDetails.getUsername());
+
+        UserResponse2 userResponse = userService.convertToUserResponse2(user);
+
+        LoginResponse2 loginResponse = LoginResponse2.builder()
+                .user(userResponse)
+                .token(token)
+                .build();
+
+        return ResponseEntity.ok(loginResponse);
+    }
+
     @PostMapping(Constants.SIGN_UP)
     public ResponseEntity<?> signUp(@RequestBody @Valid UserRequest signUpRequest) {
         UserResponse userResponse = userService.signUpUser(signUpRequest);
         return ResponseEntity.status(HttpStatus.CREATED).body(userResponse);
     }
+
+    @PostMapping(Constants.MOBILE_SIGN_UP)
+    public ResponseEntity<LoginResponse2> signUpMobile(@RequestBody @Valid UserRequest2 signUpRequest) {
+        UserResponse2 userResponse = userService.signUpUserMobile(signUpRequest);
+
+        User user = userService.getUserByUsername(userResponse.getUsername());
+
+        String token = jwtTokenProvider.generateToken(user.getUsername());
+
+        LoginResponse2 response = LoginResponse2.builder()
+                .user(userResponse)
+                .token(token)
+                .build();
+
+        return ResponseEntity.status(HttpStatus.CREATED).body(response);
+    }
+
 
     @GetMapping(Constants.SUCCESS)
     public ResponseEntity<?> loginSuccess(@AuthenticationPrincipal OAuth2User principal) {

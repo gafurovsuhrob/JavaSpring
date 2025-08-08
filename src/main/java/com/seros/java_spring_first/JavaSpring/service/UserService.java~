@@ -1,9 +1,6 @@
 package com.seros.java_spring_first.JavaSpring.service;
 
-import com.seros.java_spring_first.JavaSpring.dto.IdList;
-import com.seros.java_spring_first.JavaSpring.dto.UpdatePasswordRequest;
-import com.seros.java_spring_first.JavaSpring.dto.UserRequest;
-import com.seros.java_spring_first.JavaSpring.dto.UserResponse;
+import com.seros.java_spring_first.JavaSpring.dto.*;
 import com.seros.java_spring_first.JavaSpring.exceptions.PasswordException;
 import com.seros.java_spring_first.JavaSpring.exceptions.RoleException;
 import com.seros.java_spring_first.JavaSpring.exceptions.UserNotFoundException;
@@ -109,13 +106,13 @@ public class UserService implements UserDetailsService {
     }
 
     @Transactional
-    public UserResponse registerUserSSO(UserRequest signUpRequest) {
+    public void registerUserSSO(UserRequest signUpRequest) {
         validateUserRequest(signUpRequest);
 
         User user = createUserFromRequest(signUpRequest);
         userRepository.save(user);
 
-        return convertToUserResponse(user);
+        convertToUserResponse(user);
     }
 
     @Transactional
@@ -127,6 +124,16 @@ public class UserService implements UserDetailsService {
         userRepository.save(user);
 
         return convertToUserResponse(user);
+    }
+
+    @Transactional
+    public UserResponse2 signUpUserMobile(UserRequest2 signInRequest) {
+        UserRequest2 userRequest = mapSignUpToUserRequest2(signInRequest);
+
+        User user = createUserFromRequest2(userRequest);
+        userRepository.save(user);
+
+        return convertToUserResponse2(user);
     }
 
     private void validateUserRequest(UserRequest userRequest) {
@@ -161,6 +168,35 @@ public class UserService implements UserDetailsService {
                 .authProvider(AuthProvider.LOCAL)
                 .authProviderId("local")
                 .roles(Set.of(2L))
+                .build();
+    }
+
+    private User createUserFromRequest2(UserRequest2 userRequest) {
+        List<Role> roles = convertIdsToRoles(new ArrayList<>(Set.of(2L)));
+
+        return User.builder()
+                .name(userRequest.getName())
+                .username(userRequest.getUsername())
+                .password(userRequest.getPassword())
+                .phone(userRequest.getPhone())
+                .photoUrl(userRequest.getPhotoUrl())
+                .email(userRequest.getEmail())
+                .dateOfBirth(userRequest.getDateOfBirth())
+                .roleEntity(roles)
+                .authProvider((AuthProvider.LOCAL))
+                .authProviderId("local")
+                .build();
+    }
+
+    private UserRequest2 mapSignUpToUserRequest2(UserRequest2 signUpRequest) {
+        return UserRequest2.builder()
+                .name(signUpRequest.getName())
+                .username(signUpRequest.getUsername())
+                .password(signUpRequest.getPassword())
+                .phone(signUpRequest.getPhone())
+                .photoUrl(signUpRequest.getPhotoUrl())
+                .email(signUpRequest.getEmail())
+                .dateOfBirth(signUpRequest.getDateOfBirth())
                 .build();
     }
 
@@ -239,6 +275,19 @@ public class UserService implements UserDetailsService {
                 .roles(user.getRoleEntity().stream()
                         .map(Role::getId)
                         .collect(Collectors.toList()))
+                .build();
+    }
+
+    public UserResponse2 convertToUserResponse2(User user) {
+
+        return UserResponse2.builder()
+                .id(user.getId())
+                .username(user.getUsername())
+                .name(user.getName())
+                .dateOfBirth(user.getDateOfBirth())
+                .email(user.getEmail())
+                .phone(user.getPhone())
+                .photoURL(user.getPhotoUrl())
                 .build();
     }
 

@@ -8,9 +8,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 public class JavaSpringApplication {
 
     public static void main(String[] args) {
-        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-        String encodedPassword = encoder.encode("password");
-        System.out.println(encodedPassword);
+//        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+//        String encodedPassword = encoder.encode("password");
+//        System.out.println(encodedPassword);
         SpringApplication.run(JavaSpringApplication.class, args);
     }
 }

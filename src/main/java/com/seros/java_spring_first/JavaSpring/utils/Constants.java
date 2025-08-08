@@ -9,9 +9,12 @@ public class Constants {
     public static final String CONFIG_SUCCESS = "/api/v1/auth/success";
     public static final String CONFIG_FAILURE = "/api/v1/auth/failure";
 
-
     public static final String LOGIN = "/login";
+    public static final String MOBILE_LOGIN = "mobile/login";
     public static final String SIGN_UP = "/signup";
+    public static final String MOBILE_SIGN_UP = "mobile/signup";
+    public static final String LOGOUT = "/logout";
+    public static final String FORGET_PASSWORD = "/forgetPassword";
 
     public static final String USERS = "/users";
     public static final String USER_ID = "/{id}";

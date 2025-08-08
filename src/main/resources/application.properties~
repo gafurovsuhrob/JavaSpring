@@ -1,10 +1,14 @@
 spring.application.name=JavaSpring
 
-#spring.datasource.url=jdbc:postgresql://localhost:5432/test_db_2
-spring.datasource.url=jdbc:postgresql://10.10.30.6:5432/test_db_2
+spring.datasource.url=jdbc:postgresql://localhost:5432/test_db_2
+#spring.datasource.url=jdbc:postgresql://10.10.30.174:5432/test_db_2
 spring.datasource.username=postgres
 spring.datasource.password=medonam
 spring.datasource.driver-class-name=org.postgresql.Driver
+
+server.address=0.0.0.0
+server.port=8080
+
 
 spring.security.oauth2.client.registration.google.client-id=486695468153-j1bvl6bbdh54fo9akgvcsrdrh9ncde45.apps.googleusercontent.com
 spring.security.oauth2.client.registration.google.client-secret=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
