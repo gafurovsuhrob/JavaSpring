@@ -1,54 +1,94 @@
-spring.application.name=JavaSpring
+#spring.application.name=JavaSpring
+#
+#spring.datasource.url=jdbc:postgresql://localhost:5432/test_db_2
+##spring.datasource.url=jdbc:postgresql://10.10.30.174:5432/test_db_2
+#spring.datasource.username=postgres
+#spring.datasource.password=medonam
+#spring.datasource.driver-class-name=org.postgresql.Driver
+#
+#server.address=0.0.0.0
+#server.port=8080
+#
+#
+#spring.security.oauth2.client.registration.google.client-id=486695468153-j1bvl6bbdh54fo9akgvcsrdrh9ncde45.apps.googleusercontent.com
+#spring.security.oauth2.client.registration.google.client-secret=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
+##spring.security.oauth2.client.registration.google.scope=user
+#
+##localhost
+#spring.security.oauth2.client.registration.github.client-id=Ov23lizlCWLZ6ulvYMtE
+#spring.security.oauth2.client.registration.github.client-secret=b7e460600513d210114f8830787eb4d67750bf2a
+#spring.security.oauth2.client.registration.github.scope=user
+#
+##10.10.30.6
+##spring.security.oauth2.client.registration.github.client-id=Ov23likSaxEWdaoQvSiD
+##spring.security.oauth2.client.registration.github.client-secret=16d0bc28560826cf54c5b2d5fa23c58b00439705
+##spring.security.oauth2.client.registration.github.scope=user
+#
+#spring.lifecycle.timeout-per-shutdown-phase=60s
+#server.shutdown=graceful
+#
+## ?????????????? ????????? Hibernate
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+#spring.jpa.hibernate.ddl-auto=update
+#
+## ????????? ???? ?????????? HikariCP (?? ????????? ? Spring Boot)
+#spring.datasource.hikari.maximum-pool-size=10
+#spring.datasource.hikari.minimum-idle=5
+#spring.datasource.hikari.idle-timeout=600000
+#spring.datasource.hikari.max-lifetime=1800000
+#
+#spring.http.encoding.charset=UTF-8
+#spring.http.encoding.enabled=true
+#spring.http.encoding.force=true
+#
+##logging
+#logging.level.com.zaxxer.hikari=DEBUG
+#logging.level.org.hibernate.SQL=DEBUG
+#logging.level.org.hibernate.type=TRACE
+#
+#logging.level.org.springframework.security=DEBUG
+#logging.level.org.springframework.web=DEBUG
+#logging.level.com.seros.java_spring_first.JavaSpring.service=DEBUG
+#
+#logging.file.name=app.log
+#logging.file.path=/path/to/logs
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/test_db_2
-#spring.datasource.url=jdbc:postgresql://10.10.30.174:5432/test_db_2
-spring.datasource.username=postgres
-spring.datasource.password=medonam
+# ===============================
+# ???????? ????????? ???????
+# ===============================
+server.port=${PORT:8080}
+server.address=0.0.0.0
+
+# ===============================
+# ????????? ?? (PostgreSQL)
+# ===============================
+spring.datasource.url=${DATABASE_URL:jdbc:postgresql://localhost:5432/test_db_2}
+spring.datasource.username=${DATABASE_USERNAME:postgres}
+spring.datasource.password=${DATABASE_PASSWORD:medonam}
 spring.datasource.driver-class-name=org.postgresql.Driver
 
-server.address=0.0.0.0
-server.port=8080
-
+# ===============================
+# JPA / Hibernate
+# ===============================
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 
 spring.security.oauth2.client.registration.google.client-id=486695468153-j1bvl6bbdh54fo9akgvcsrdrh9ncde45.apps.googleusercontent.com
-spring.security.oauth2.client.registration.google.client-secret=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
-#spring.security.oauth2.client.registration.google.scope=user
 
-#localhost
-spring.security.oauth2.client.registration.github.client-id=Ov23lizlCWLZ6ulvYMtE
-spring.security.oauth2.client.registration.github.client-secret=b7e460600513d210114f8830787eb4d67750bf2a
-spring.security.oauth2.client.registration.github.scope=user
-
-#10.10.30.6
-#spring.security.oauth2.client.registration.github.client-id=Ov23likSaxEWdaoQvSiD
-#spring.security.oauth2.client.registration.github.client-secret=16d0bc28560826cf54c5b2d5fa23c58b00439705
-#spring.security.oauth2.client.registration.github.scope=user
-
-spring.lifecycle.timeout-per-shutdown-phase=60s
-server.shutdown=graceful
-
-# ?????????????? ????????? Hibernate
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-spring.jpa.hibernate.ddl-auto=update
-
-# ????????? ???? ?????????? HikariCP (?? ????????? ? Spring Boot)
-spring.datasource.hikari.maximum-pool-size=10
-spring.datasource.hikari.minimum-idle=5
-spring.datasource.hikari.idle-timeout=600000
-spring.datasource.hikari.max-lifetime=1800000
-
-spring.http.encoding.charset=UTF-8
-spring.http.encoding.enabled=true
-spring.http.encoding.force=true
-
-#logging
-logging.level.com.zaxxer.hikari=DEBUG
-logging.level.org.hibernate.SQL=DEBUG
-logging.level.org.hibernate.type=TRACE
-
-logging.level.org.springframework.security=DEBUG
+# ===============================
+# ???????????
+# ===============================
 logging.level.org.springframework.web=DEBUG
-logging.level.com.seros.java_spring_first.JavaSpring.service=DEBUG
+logging.level.org.hibernate.SQL=DEBUG
+logging.level.org.hibernate.type.descriptor.sql=TRACE
 
-logging.file.name=app.log
-logging.file.path=/path/to/logs
+# ===============================
+# ?????-???????? ??????? (CORS)
+# ===============================
+# ????? ????? ???? ?????????? ? ????????, ?????? ? ?.?.
+spring.web.cors.allowed-origin-patterns=*
+spring.web.cors.allowed-methods=GET,POST,PUT,PATCH,DELETE,OPTIONS
+spring.web.cors.allowed-headers=*
+spring.web.cors.allow-credentials=true
