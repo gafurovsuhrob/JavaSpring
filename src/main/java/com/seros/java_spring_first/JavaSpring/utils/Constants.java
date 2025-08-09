@@ -13,6 +13,7 @@ public class Constants {
     public static final String MOBILE_LOGIN = "mobile/login";
     public static final String SIGN_UP = "/signup";
     public static final String MOBILE_SIGN_UP = "mobile/signup";
+    public static final String CHECK_EMAIL = "mobile/email";
     public static final String LOGOUT = "/logout";
     public static final String FORGET_PASSWORD = "/forgetPassword";
 

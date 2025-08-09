@@ -21,6 +21,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -59,6 +60,11 @@ public class UserService implements UserDetailsService {
         String password = user.getPassword();
         user.setPassword(passwordEncoder.encode(password));
         return user;
+    }
+
+    public Boolean checkEmail(String email) {
+        Optional<Boolean> exist = userRepository.existsByEmail(email);
+        return exist.orElse(false);
     }
 
     @Transactional

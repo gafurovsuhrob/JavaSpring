@@ -27,6 +27,12 @@ public class UserController {
         return userService.getAllUsers();
     }
 
+    @GetMapping(Constants.CHECK_EMAIL)
+    public ResponseEntity<Boolean> checkUserByUsername(@PathVariable String email) {
+        boolean exists = userService.checkEmail(email);
+        return new ResponseEntity<>(exists, HttpStatus.OK);
+    }
+
     @PostMapping
     public ResponseEntity<UserResponse> createUser(@Valid @RequestBody UserRequest userRequest) {
         UserResponse createdUser = userService.saveUser(userRequest);
